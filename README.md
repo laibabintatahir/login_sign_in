@@ -1,9 +1,7 @@
 # login_sign_in
 HTML CSS
 
-## Screenshots
+## Demo
 
-Here are some screenshots of the project:
-
-![Screenshot 1](1.JPG)
-![Screenshot 2](2.png)
+![Demo Image 1](./1.jpg)
+![Demo Image 2](./2.jpg)
