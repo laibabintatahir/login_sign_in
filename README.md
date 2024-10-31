@@ -5,5 +5,5 @@ HTML CSS
 
 Here are some screenshots of the project:
 
-![Screenshot 1](path/to/1.png)
-![Screenshot 2](path/to/2.png)
+![Screenshot 1](1.JPG)
+![Screenshot 2](2.png)
