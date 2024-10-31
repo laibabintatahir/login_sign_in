@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login and Sign Up</title>
+    <!-- Add Font Awesome CSS for social icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <!-- Sign In Section -->
+      <div class="form-container sign-in-container">
+        <form action="#">
+          <h1 style="color: #9c27b0">Sign in</h1>
+          <input type="text" placeholder="Username" />
+          <input type="password" placeholder="Password" />
+          <button>Login</button>
+          <p style="color: purple; margin-bottom: 10px; margin-top: 10px">
+            Or Sign in with social platform
+          </p>
+          <div class="social-container">
+            <a
+              href="#"
+              class="social"
+              style="color: purple; margin-right: 10px; text-decoration: none"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              href="#"
+              class="social"
+              style="color: purple; margin-right: 10px; text-decoration: none"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a
+              href="#"
+              class="social"
+              style="color: purple; margin-right: 10px; text-decoration: none"
+              ><i class="fab fa-google"></i
+            ></a>
+            <a
+              href="#"
+              class="social"
+              style="color: purple; margin-right: 10px; text-decoration: none"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </form>
+      </div>
+
+      <!-- Sign Up Section -->
+      <div class="form-container sign-up-container">
+        <form action="#">
+          <h1 style="color: #9c27b0">Sign Up</h1>
+          <input type="text" placeholder="Username" />
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <button>Sign Up</button>
+          <p style="color: purple; margin-bottom: 10px; margin-top: 10px">
+            Or SignUp with social platform
+          </p>
+          <div class="social-container">
+            <a
+              href="#"
+              class="social"
+              style="color: purple; margin-right: 10px; text-decoration: none"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              href="#"
+              class="social"
+              style="color: purple; margin-right: 10px; text-decoration: none"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a
+              href="#"
+              class="social"
+              style="color: purple; margin-right: 10px; text-decoration: none"
+              ><i class="fab fa-google"></i
+            ></a>
+            <a
+              href="#"
+              class="social"
+              style="color: purple; margin-right: 10px; text-decoration: none"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </form>
+      </div>
+
+      <!-- Overlay Section -->
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-right">
+            <h1>Welcome Back!</h1>
+            <p>
+              Log in to continue your learning journey. Enter your credentials
+              to access personalized insights and resources, powered by AI.
+            </p>
+            <button class="ghost" id="signUp">Sign In</button>
+          </div>
+          <div class="overlay-panel overlay-left">
+            <h1>Join Our Learning Community!</h1>
+            <p>Create an account and start exploring AI-assisted learning.</p>
+            <button class="ghost" id="signIn">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
